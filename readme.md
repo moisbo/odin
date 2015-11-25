@@ -1,2 +1,1 @@
-The Odin Project exercises
-theodinproject.com
+The Odin Project exercises from (theodinproject.com)
