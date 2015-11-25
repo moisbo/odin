@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Minesweeper</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row row-centered">
+            <div class="col-centered">
+                <label>Board Size<input type="number" id="size"></label>
+                <label>Bombs<input type="number" id="bombs"></label>
+                <div>
+                    <button id="restart" class="btn">New Game</button>
+                    <span class="timer"></span>
+                    <span class="alert"></span>
+                </div>
+
+                <table>
+                    <tbody class="gameboard"></tbody>
+                </table>
+                <div>
+                    <button id="reset" class="btn">Reset 10x10</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="jquery.min.js"></script>
+    <script src="minesweeper.js"></script>
+</body>
+</html>

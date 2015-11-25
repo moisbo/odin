@@ -1,0 +1,43 @@
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+.cell{
+    height: 35px;
+    width: 40px;
+    background: gray;
+    border: 2px solid white;
+    margin: 2px;
+    padding: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+}
+.empty{
+    background: white;
+    border: 2px solid gainsboro;
+    color: black;
+}
+.c1{
+    color: black;
+}
+.c2{
+    color: blue;
+}
+.c3{
+    color: red;
+}
+.cGreen{
+    color: green;
+}
+.cRed{
+    color: #c12e2a;
+}
+
